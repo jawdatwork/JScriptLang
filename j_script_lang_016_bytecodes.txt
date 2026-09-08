@@ -1,0 +1,32 @@
+J Script Lang 016 Bytecodes
+
+bytecode_value : bytecode_meaning
+
+struct LineOfCodeData {
+  var byte0;
+  var byte1;
+  var byte2;
+  var msg0;
+  var msg1;
+
+  LineOfCodeData() {
+    byte0 = 0;
+    byte1 = 0;
+    byte2 = 0;
+
+    msg0 = "";
+    msg1 = "";
+  }
+};
+
+101 : int
+102 : x
+103 : 1
+104 : set
+105 : 2
+106 : y
+107 : 3
+108 : 4
+109 : var_name
+110 : var_value
+111 : include
