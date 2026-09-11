@@ -1,0 +1,53 @@
+var bc = 0;
+var msg = "";
+
+int storedInt = 0;
+int boolMakeInt = 0;
+var storedIntName = "";
+int boolSetInt = 0;
+var storedIntString = "";
+var storedMessage = "";
+
+if(bc == 101) {
+  boolMakeInt = 1;
+}
+
+if(bc == 102) {
+  storedIntName = "x";
+}
+
+if(bc == 103) {
+  storedInt = 1;
+}
+
+if(bc == 104) {
+  boolSetInt = 1;
+}
+
+if(bc == 105) {
+  storedInt = 2;
+}
+
+if(bc == 106) {
+  storedIntName = "y";
+}
+
+if(bc == 107) {
+  storedInt = 3;
+}
+
+if(bc == 108) {
+  storedInt = 4;
+}
+
+if(bc == 109) {
+  storedIntName = msg;
+}
+
+if(bc == 110) {
+  storedIntString = msg;
+}
+
+if(bc == 111) {
+  storedMessage = msg;
+}

@@ -1,0 +1,23 @@
+J Programming Language Version 016 Update 3
+
+Fundamental Bytecodes:
+
+101 : int
+102 : x
+103 : 1
+104 : set
+105 : 2
+106 : y
+107 : 3
+108 : 4
+109 : var_name
+110 : var_value
+111 : include
+
+Use these bytecodes as the fundamental
+building blocks of the language. Make
+all the other bytecodes and data
+out of extensions of these bytes.
+
+compile_starter_bytecodes_j.txt
+
