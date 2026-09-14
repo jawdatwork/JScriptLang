@@ -1,0 +1,12 @@
+int bytecodePageElem0 = 0;
+int bytecodePageElem1 = 0;
+int bytecodePageElem2 = 0;
+
+bytecodePageElem0 = 101;
+bytecodePageElem1 = 102;
+bytecodePageElem2 = 103;
+
+int storedIntX = 0;
+
+storedIntX = 1;
+

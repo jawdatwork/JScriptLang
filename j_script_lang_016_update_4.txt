@@ -1,0 +1,29 @@
+J Programming Language Version 016 Update 4
+
+example line of code:
+int x = 1;
+
+example line of code data:
+var lineOfCodeData = LineOfCodeData();
+lineOfCodeData.byte0 = 101;
+lineOfCodeData.byte1 = 102;
+lineOfCodeData.byte2 = 103;
+
+read bytes:
+101
+102
+103
+
+interpret bytes:
+read ... "101, 102, 103"
+execute ... make int, call int x, make with value 1
+
+BytecodePage
+SetBytecodePage(...) { ... }
+InterpretBytecodePage(...) { ... }
+
+see:
+  BytecodePagePicture.png
+  BytecodePage_j.txt
+
+
