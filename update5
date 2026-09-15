@@ -1,0 +1,40 @@
+int executable_Script = 1;
+int executable_Product = 2;
+int executable_Computer = 3;
+int executable_Phone = 4;
+int executable_PhoneApp = 5;
+int executable_App = 6;
+int executable_RepoUpdateScriptPath = 7;
+int exec_app = 1;
+
+int storedByte = 0;
+int storedIntX = 0;
+
+storedByte = 101;
+storedByte = 102;
+storedByte = 103;
+
+storedIntX = 1;
+
+Notes:
+  Make executable plans as
+  a separate path of plans for updates
+
+Script plans
+Bytecode plans
+Executable plans
+  Windows exe plans
+  Phone app executable plans
+  Machine code plans
+Computer plans
+  Phone plans
+
+
+Hard drive or flash drive
+\=>
+
+> Script list
+  \=> exec_app => computer processor
+
+Use drawing pictures as schematics
+
