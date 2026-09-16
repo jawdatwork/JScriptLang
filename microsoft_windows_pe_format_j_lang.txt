@@ -1,0 +1,38 @@
+microsoft windows PE Format (EXE, DLL)
+com.microsoft.windows-dynamic-link-library (DLL)
+
+general_concepts:
+  attribute_certificate
+  date_time_stamp
+  file_pointer
+  linker
+  object_file
+  reserved_must_be_0
+  relative_virtual_address
+  section
+  virtual_address
+
+overview_pe_format:
+  ms_dos_2_0_compat_exe_header
+  unused
+  oem_identifier
+    oem_info
+    offset_to_pe_header
+  ms_dos_2_0_stub_program_and_reloc_table
+  unused
+  pe_header_8_b
+  section_headers
+  image_pages
+    import_info
+    export_info
+    base_relocations
+    resource_info
+  COFF_object_module_format
+    microsoft_coff_header
+    section_headers
+    raw_data
+      code
+      data
+      debug_info
+      relocations
+

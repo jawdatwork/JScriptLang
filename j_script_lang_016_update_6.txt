@@ -1,0 +1,20 @@
+J Programming Language Version 016 Update 6
+
+j_script
+  script_programming_path
+  implementation_programming_path
+  bytecode_programming_path
+  os_programming_path
+    generic_os_path
+    windows_os_path_j_lang
+      \-> microsoft_windows_pe_format_j_lang
+    mac_os_path_j_lang
+    linux_os_path_j_lang
+    android_os_path_j_lang
+  computer_processor_path
+    personal_computer_path
+    phone_computer_path
+
+see:
+  microsoft_windows_pe_format_j_lang.txt
+
