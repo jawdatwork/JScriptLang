@@ -1,0 +1,50 @@
+include "MyExecutable.j"
+
+class GenericOsHandle {
+   var mode;
+
+  GenericOsHandle() {
+    mode = "";
+  }
+
+  func SetModeWindows12() {
+    mode = "Windows12";
+  }
+
+  func Call() {
+    
+  }
+};
+
+class Windows12_j {
+  var generic_os_handle;
+
+  Windows12_j() {
+    generic_os_handle = GenericOsHandle();
+    generic_os_handle.SetModeWindows12();
+  }
+
+  func StartExe() {
+    generic_os_handle.Call("start_exe_j");
+  }
+}
+
+class JApp {
+  var myExec;
+  var myWindows12;
+  
+  JApp() {
+    myExec = MyExecutable();
+    myWindows12 = Windows12_j();
+  }
+
+  func RunWithWindows12() {
+    myWindows12.StartExe();
+  }
+}
+
+func RunWindowsExecutable(var win_exe) {
+  var j_app = JApp();
+  j_app.RunWithWindows12();
+}
+
