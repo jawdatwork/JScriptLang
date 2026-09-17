@@ -1,0 +1,63 @@
+int PROG_PATH_TYPE_SCRIPT = 1;
+int PROG_PATH_TYPE_GENERIC_OS = 2;
+int PROG_PATH_TYPE_WIN_PE_EXE = 3;
+
+struct ProgPathScript {
+  var script_name;
+  var parent_folder_name;
+  var content;
+
+  ProgPathScript() {
+    script_name = "My Script (1)";
+    parent_folder_name = "Documents";
+    content = "";
+  }
+};
+
+struct PP_ScriptList {
+  var elem0;
+  var elem1;
+  var elem2;
+
+  int length;
+
+  PP_ScriptList() {
+    elem0 = ProgPathScript();
+    elem1 = ProgPathScript();
+    elem2 = ProgPathScript();
+
+    length = 0;
+  }
+
+  func AddItem(var pps) {
+    if(length == 0) {
+      elem0 = pps;
+      length = 1;
+    }
+
+    if(length == 1) {
+      elem1 = pps;
+      length = 2;
+    }
+
+    if(length == 2) {
+      elem2 = pps;
+      length = 3;
+    }
+  }
+};
+
+class ProgrammingPath {
+  int type;
+  var script_list;
+
+  ProgrammingPath() {
+    type = PROG_PATH_TYPE_SCRIPT;
+    script_list = PP_ScriptList();
+  }
+ 
+  func AddScript(var pp_script) {
+    script_list.AddItem(pp_script);
+  }
+};
+

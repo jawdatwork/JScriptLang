@@ -1,0 +1,16 @@
+J Script Lang 016 Update 8
+
+Array24
+RunLinesOfBytecode, MyExecutable
+start exe, GenericOS, Win12
+processor programming path
+
+script_programming_path
+  \-> implem, bytecode, application, generic_os_path
+  \-> generic_os_path => microsoft_windows_pe_format_j_lang
+
+see:
+  programming_path_executable_picture.png
+  programming_path_j.txt
+
+
