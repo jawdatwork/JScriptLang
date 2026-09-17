@@ -1,0 +1,56 @@
+include "Array24.j"
+
+struct LinesOfBytecode {
+  var bytes;
+
+  LinesOfBytecode() {
+    bytes = Array24();
+  }
+};
+
+class MyExecutable {
+  var title;
+  var width;
+  var height;
+
+  var storedInt;
+  var boolMakeInt;
+  var intName;
+
+  MyExecutable(var t, var w, var h) {
+    title = t;
+    width = w;
+    height = h;
+    storedInt = 0;
+    boolMakeInt = 0;
+    intName = "";
+  }
+
+  func ExecuteByte(var b) {
+    if(b == 101) {
+      boolMakeInt = 1;
+    }
+
+    if(b == 102) {
+      intName = "x";
+    }
+
+    if(b == 103) {
+      storedInt = 1;
+    }
+  }
+
+  func RunLinesOfBytecode(var lines) {
+    var myBytes = lines;
+    myBytes.bytes.SetValue(0, 101);
+    myBytes.bytes.SetValue(1, 102);
+    myBytes.bytes.SetValue(2, 103);
+
+    var curByteIndex = 0;
+
+    for(var i = 0; i < 24; i++) {
+ ExecuteByte(myBytes.bytes.GetValue(curByteIndex));
+  curByteIndex++;
+    }
+  }
+};
