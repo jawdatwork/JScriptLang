@@ -1,0 +1,12 @@
+int PROC_PERSONAL_COMPUTER = 1;
+int PROC_SMART_PHONE = 2;
+int PROC_BASIC_PHONE = 3;
+
+class Processor {
+  int proc_type;
+
+  Processor {
+    proc_type = PROC_PERSONAL_COMPUTER;
+  }
+};
+
