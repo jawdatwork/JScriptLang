@@ -1,0 +1,53 @@
+Portable Executable (PE) Format (.exe)
+
+.exe
+.dll
+
+main() 
+DllMain()
+LoadLibrary()
+__declspec(dllexport)
+
+application/vnd.microsoft.portable-executable
+
+ELF format : Linux
+Mach-O format : macOS
+
+application/x-dosexec, application/x-msdos-program, application/x-ms-dos-executable
+
+DOS MZ executable
+.exe
+.dll
+.com
+.sys
+
+Extended to
+  New Executable
+  Linear Executable
+  Portable Executable
+
+The file can be identified by the ASCII string "MZ" (hexadecimal: 4D 5A) at the beginning of the file (the "magic number").
+
+First com executable
+  65,536
+
+Later exe executable
+  Larger programs
+
+Programming path:
+  J Script
+  Implementation
+    Executable
+      JApp (j_lang based generic_os executable)
+        Win exe (Microsoft com, exe)
+        Linux elf executable
+        Mac Mach-O executable
+        Android app executable
+
+_japp text_file
+generic_os file format specification
+  translated to win Mac Linux android, etc.
+
+_japp.txt
+.japp file_name_extension
+
