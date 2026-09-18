@@ -1,0 +1,21 @@
+J script
+J app
+Generic os (*.japp)
+\-> print
+  display_text
+  display_rect
+  play_audio_clip
+
+Windows12, .com, .exe, .dll
+  display_text
+  display_rect
+  play_audio_clip
+
+Android app executable (*.___)
+
+Linux .elf
+Mac (*.___)
+
+Love2d (*.lua) display_text
+Android compile c code => printf
+
