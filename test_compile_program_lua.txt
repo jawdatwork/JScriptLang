@@ -1,0 +1,6 @@
+function love.draw()
+  love.graphics.print('Compile program', 400, 300)
+  love.graphics.print('int x = 1;', 400, 315)
+  love.graphics.print('101, 102, 103', 400, 330)
+end
+

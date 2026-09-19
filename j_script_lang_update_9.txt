@@ -1,0 +1,50 @@
+J Script Lang 016 Update 9
+
+Notes:
+
+starting_exe
+  Android
+  Win console
+  Love2d
+
+generic_os_interface
+  \-> print (from starting_exe)
+      display_text
+      play_audio_clip
+
+full_exe
+  created_executable
+    from starting_exe
+    and generic_os_interface
+
+=> japp
+
+Compile text_files with a previous compiler (executable).
+Windows/Mac/Linux/Android/Etc.
+
+Options:
+  onecompiler.com/assembly (HelloWorld.asm)
+  Love2D (lovec.exe)
+
+Assembly notes:
+  4 1 hello helloLen
+  sys_write("Compile program")
+  see:
+    test_compile_program_asm.txt
+
+Lua notes:
+  see:
+    test_compile_program_lua.txt
+
+Thoughts afterwards:
+  If we're trying to make an executable that we can
+    run any game from (japp_title.exe) then we would
+    have to learn to compile a text_file to an
+    exe_text_file_spec file using j_lang, assembly,
+    and lua. 
+
+  Best regards.
+
+  see:
+    jassem_japp_blueprints_picture.png
+
