@@ -1,0 +1,12 @@
+J Script Lang 016 Update 10
+
+  assembly templates:
+display_application
+  application.j
+  display_application.jassem
+  start_executable.asm
+
+see:
+  japp_display_application_jassem_picture.png
+  japp_display_application_jassem.txt
+
