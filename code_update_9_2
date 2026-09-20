@@ -1,0 +1,62 @@
+asm => exe
+txt file.bat file_name_exten 
+
+RunnableTextFile line_by_line
+console text_file_line_as_cmd
+cmd_list
+  else echo text_file_line
+
+foreach line in text_file
+  run_as_text_cmd
+  else echo_as_line
+
+echo 1 + 2
+echo 3
+echo 3 * 3
+echo 9
+... Etc
+
+calculations
+  run echo ...
+  echo 1 + 2
+  echo 3
+  echo 3 * 3
+  echo 9
+
+Notes:
+  programming path:
+    echo (print) value
+      [do calculations, on paper]
+    echo (print) [calculated value]
+    ... echo (print) ... etc
+
+  use a previous executable [from computer
+    or phone] to develop
+    new applications
+
+batch script:
+
+echo int x = 1;
+echo 101
+echo 102
+echo 103
+
+assembly script:
+
+section .data
+ hello: db 'echo int x = 1; echo 101 echo 102 echo 103',10 ; 'Hello, World!' plus a linefeed character
+ helloLen: equ $-hello ; Length of the 'Hello world!' string
+
+section .text
+ global _start
+
+_start:
+ mov eax,4 ; The system call for write (sys_write)
+ mov ebx,1 ; File descriptor 1 - standard output
+ mov ecx,hello ; Put the offset of hello in ecx
+ mov edx,helloLen ; helloLen is a constant, so we don't need to say
+                      ; mov edx,[helloLen] to get it's actual value
+ int 80h ; Call the kernel
+ mov eax,1 ; The system call for exit (sys_exit)
+ mov ebx,0 ; Exit with return "code" of 0 (no error)
+ int 80h;
