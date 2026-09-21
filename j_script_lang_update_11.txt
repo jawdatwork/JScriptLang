@@ -1,0 +1,31 @@
+J Script Lang 016 Update 11
+
+programming path:
+  j_script, script_list
+  j_assem, j_script_assembly
+  text_file_script, script_list
+  text_file_batch, batch_script_list
+  text_file_asm, assembly_script_list
+
+  japp
+    \-> j_script_list
+        j_assem_script_list
+          j_bytecode
+            j_app_executable
+
+  win_app
+    \-> text_file_echo_list
+        batch_script_list
+        assembly_script_list
+          exe_bytecode
+          exe_app_executable
+
+  android
+  Linux
+  mac
+    similar paths as windows
+
+see:
+  previous_app_to_new_app_japp_picture.png
+  PreviousAppToNewApp_j.txt
+

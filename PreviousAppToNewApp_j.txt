@@ -1,0 +1,77 @@
+struct ValueList {
+  int value0;
+  int value1;
+  int value2;
+  int length;
+
+  ValueList() {
+    value0 = 0;
+    value1 = 0;
+    value2 = 0;
+    length = 0;
+  }
+
+  func AddItem(int value) {
+    if(length == 0) {
+      value0 = value;
+      length = 1;
+    }
+
+    if(length == 1) {
+      value1 = value;
+      length = 2;
+    }
+
+    if(length == 2) {
+      value2 = value;
+      length = 3;
+    }
+  }
+};
+
+class PreviousApp {
+  var title;
+  var width;
+  var height;
+
+  var printedValues;
+  
+  PreviousApp() {
+    title = "Previous App";
+    width = 800;
+    height = 600;
+
+    printedValues = ValueList();
+  }
+
+  func PrintValue(int val) {
+    printedValues.AddItem(val);
+  }
+};
+
+class NewApp {
+  var title;
+  var width;
+  var height;
+
+  var printedValues;
+
+  var previousApp;
+
+  NewApp() {
+    title = "New App";
+    width = 800;
+    height = 600;
+
+    printedValues = ValueList();
+    
+    previousApp = PreviousApp();
+  }
+
+  func PrintValue(int val) {
+    previousApp.PrintValue(val);
+
+    printedValues.AddItem(val);
+  }
+};
+
