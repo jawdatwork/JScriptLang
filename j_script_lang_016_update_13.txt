@@ -1,0 +1,12 @@
+J Script Lang 016 Update 13
+
+starter bytecodes 101 - 127
+used to make any functional script
+started with just integers,
+make other vars and functions and structs 
+out of integers.
+
+see:
+  PrimaryInstructionsBlueprintsPicture.png
+  bytecodes_101_127_jassem.txt
+
