@@ -1,0 +1,12 @@
+class FunctionalScript {
+  int storedInt;
+
+  FunctionalScript() {
+    storedInt = 0;
+  }
+
+  func SetStoredInt(var dest) {
+    storedInt = dest;
+  }
+};
+
