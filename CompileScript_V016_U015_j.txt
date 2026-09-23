@@ -1,0 +1,31 @@
+var code = "";
+
+code = "var x = null;";
+code = "var x = true;";
+code = "var x = false;";
+
+int stored_var_name = 0;
+int stored_var_value = 0;
+
+int VAR_NAME_X = 1;
+int VAR_VALUE_NULL = 2;
+int VAR_VALUE_TRUE = 3;
+int VAR_VALUE_FALSE = 4;
+
+func CompileCode() {
+  if(code == "var x = null;") {
+    stored_var_name = VAR_NAME_X;
+    stored_var_value = VAR_VALUE_NULL;
+  }
+
+  if(code == "var x = true;") {
+    stored_var_name = VAR_NAME_X;
+    stored_var_value = VAR_VALUE_TRUE;
+  }
+
+  if(code == "var x = false;") {
+    stored_var_name = VAR_NAME_X;
+    stored_var_value = VAR_VALUE_FALSE;
+  }
+}
+
