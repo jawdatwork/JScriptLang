@@ -1,0 +1,12 @@
+var code = "";
+
+int x = 0;
+
+func GetCode() {
+  code = "x = 3 * 3;";
+}
+
+if(code == "x = 3 * 3;") {
+  x = 9;
+}
+

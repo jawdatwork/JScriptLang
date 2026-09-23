@@ -1,0 +1,33 @@
+int_name
+0
+
+int_name
+31
+
+int_value
+0
+
+int_value
+31
+
+func_keyword
+func
+
+func_name
+0
+
+func_name
+31
+
+call_func
+func_name()
+
+arithmetic
+1 + 2 + 3
+
+arithmetic
+3 * 3
+
+arithmetic
+3 * 3 + func_name()
+

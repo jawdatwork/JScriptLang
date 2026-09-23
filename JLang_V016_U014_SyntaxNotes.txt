@@ -1,0 +1,34 @@
+jassem
+
+functional programming
+
+int_name
+int_value
+
+build upon this type of data entry
+into functional programming,
+then onto classes and complex programming
+
+int_name
+complex_int_value
+
+func
+func_name
+return_value (with or without arithmetic)
+
+my_int
+func_name()
+
+syntax
+j000_u000
+to
+j016_u014
+
+j_lang version 016_u014
+
+j
+jassem
+jbytecode
+
+bytecodes 101 - 127
+
