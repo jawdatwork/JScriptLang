@@ -1,0 +1,55 @@
+J Script Lang 016 Update 14
+
+functional programming
+starter bytecodes
+make functional scripts first,
+  with starter bytecodes
+  (int, func)
+
+make vars, structs, and classes
+  out of functional scripts
+  (int, func; include, var, struct, class)
+
+The moral of the story is:
+the easiest way to compile functional scripts is
+to start with the bare necessities.
+For example (int x = 1;)
+if(code == "int x = 1;" ) {
+  byte0 = 101;
+  byte1 = 102;
+  byte2 = 103;
+}
+if(code == "int x = 2;") {
+  byte0 = 104;
+  byte1 = 102;
+  byte2 = 105;
+}
+
+Then after this...
+  code == "int x = 99;" //any value int x = 55, 23, 67, any_value...
+
+int boolHasIntMessage = CodeIsSetXToValue(code);
+  int intMessage = storedCodeIsSetToXValueMessage;
+  if(boolHasIntMessage) {
+    byte0 = 104;
+    byte1 = 102;
+    byte2 = 110;
+
+    storedIntValueMessage = intMessage;
+  }
+
+  if(code == "int y = 0;") {
+    byte0 = 101;
+    byte1 = 106;
+    byte2 = 110;
+    storedIntValueMessage = 0;
+  }
+
+see:
+  FunctionalScript_j.txt
+
+see:
+  FunctionalScriptPicture.png
+  CompileIntegerCode_j.txt
+
+

@@ -1,0 +1,191 @@
+var compiledByte0 = 0;
+var compiledByte1 = 0;
+var compiledByte2 = 0;
+
+var storedIntValueMessage = 0;
+
+int storedCodeIsSetToXValueMessage = 0;
+
+func CodeIsSetXToValue(var code) {
+  int boolHasXBeg = 0;
+  int boolHasXBegSpace = 0;
+  int boolHasEquals = 0;
+  int boolHasEqualsSpaceAfter = 0;
+  int boolHasSetDigit = 0;
+  int storedReturnValue = 0;
+  int boolHasSemicolon = 0;
+  int returnFlags = 0;
+  int returnValue = 0;
+
+  if(code[0] == 'x') {
+    boolHasXBeg = 1;
+  }
+
+  if(code[1] == ' ') {
+    boolHasXBegSpace = 1;
+  }
+
+  if(code[2] == '=') {
+    boolHasEquals = 1;
+  }
+
+  if(code[3] == ' ') {
+    boolHasEqualsSpaceAfter = 1;
+  }
+
+  //Check if after equals space is number
+  if(code[4] == '0') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 0;
+  }
+
+  if(code[4] == '1') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 1;
+  }
+
+  if(code[4] == '2') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 2;
+  }
+
+  if(code[4] == '3') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 3;
+  }
+
+  if(code[4] == '4') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 4;
+  }
+
+  if(code[4] == '5') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 5;
+  }
+
+  if(code[4] == '6') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 6;
+  }
+
+  if(code[4] == '7') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 7;
+  }
+
+  if(code[4] == '8') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 8;
+  }
+
+  if(code[5] == '9') {
+    boolHasSetDigit = 1;
+    storedReturnValue = 9;
+  }
+
+  if(code[6] == ';') {
+    boolHasSemicolon = 1;
+  }
+
+  if(boolHasXBeg == 1) {
+    returnFlags = returnFlags + 1;
+  }
+
+  if(boolHasXBegSpace == 1) {
+    returnFlags = returnFlags + 1;
+  }
+
+  if(boolHasEquals == 1) {
+    returnFlags = returnFlags + 1;
+  }
+
+  if(boolHasEqualsSpaceAfter == 1) {
+    returnFlags = returnFlags + 1;
+  }
+
+  if(boolHasDigit == 1) {
+    returnFlags = returnFlags + 1;
+  }
+
+  if(boolHasSemicolon == 1) {
+    returnFlags = returnFlags + 1;
+  }
+
+  if(returnFlags == 6) {
+    storedCodeIsSetToXValueMessage = returnValue;
+    return 1;
+  }
+
+  return 0;
+}
+
+func CompileIntegerCode(var int_code_string) {
+  var code = int_code_string;
+
+  var byte0 = 0;
+  var byte1 = 0;
+  var byte2 = 0;
+
+  if(code == "int x = 1;") {
+    byte0 = 101;
+    byte1 = 102;
+    byte2 = 103;
+  }
+
+  if(code == "x = 2;") {
+    byte0 = 104;
+    byte1 = 102;
+    byte2 = 105;
+  }
+
+  if(code == "x = 3;") {
+    byte0 = 104;
+    byte1 = 102;
+    byte2 = 107;
+  }
+
+  if(code == "x = 4;") {
+    byte0 = 104;
+    byte1 = 102;
+    byte2 = 108;
+  }
+
+  if(code == "x = 5;") {
+    byte0 = 104;
+    byte1 = 102;
+    byte2 = 110;
+
+    storedIntValueMessage = 5;
+  }
+
+  if(code == "x = 6;") {
+    byte0 = 104;
+    byte1 = 102;
+    byte2 = 110;
+
+    storedIntValueMessage = 6;
+  }
+
+  int boolHasIntMessage = CodeIsSetXToValue(code);
+  int intMessage = storedCodeIsSetToXValueMessage;
+  if(boolHasIntMessage) {
+    byte0 = 104;
+    byte1 = 102;
+    byte2 = 110;
+
+    storedIntValueMessage = intMessage;
+  }
+
+  if(code == "int y = 0;") {
+    byte0 = 101;
+    byte1 = 106;
+    byte2 = 110;
+    storedIntValueMessage = 0;
+  }
+
+  compiledByte0 = byte0;
+  compiledByte1 = byte1;
+  compiledByte2 = byte2;
+}
+
