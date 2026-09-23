@@ -1,0 +1,12 @@
+my_variable_a
+1
+
+my_variable_b
+2
+
+my_variable_c
+1 + 2
+
+my_variable_d
+my_variable_c + 1
+

@@ -1,0 +1,10 @@
+int make_int_func = 101;
+int set_int_func = 104;
+
+int stored_int_min = 0;
+int stored_int_max = 31;
+int stored_int_len = 32;
+
+int stored_int_name = 0;
+int stored_int_value = 0;
+
