@@ -1,0 +1,52 @@
+J Script Lang V016_U017
+
+selling copies
+
+store
+  from editor
+  from web browser (website)
+  
+options:
+  free version
+  0 dollars
+  just the console
+
+  free version
+  0 dollars
+    console
+    file browser
+    text editor
+    game player
+    store
+
+store
+donation page
+
+plugins:
+  music maker
+  book maker
+  internet use
+  printer
+  web browser
+  video maker
+  multiplayer
+  animations
+  
+free version 0 dollars just the console
+free version 0 dollars console, file browser, text editor, game player
+free version with some plugins 15 dollars
+free version with medium plugins 30 dollars
+free version with a lot of plugins 45 dollars
+free version with all plugin capability from store 60 dollars
+
+selling copies:
+solution to plugins capability from store:
+  free version 0 dollars
+  plugin 1 - 5 dollars
+  free version with some plugins 30 dollars
+  free version with all plugins capability from store 60 dollars
+
+see:
+  JScriptLangStorePicture.png
+  store_j.txt
+

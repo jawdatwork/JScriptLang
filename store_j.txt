@@ -1,0 +1,81 @@
+class StorePlugin {
+  var title;
+
+  StorePlugin() {
+    
+  }
+};
+
+class PluginList {
+  var elem0;
+  var elem1;
+  var elem2;
+  var elem3;
+  var elem4;
+  var elem5;
+  var elem6;
+  var elem7;
+  var length;
+
+  PluginList() {
+    elem0 = StorePlugin();
+    elem1 = StorePlugin();
+    elem2 = StorePlugin();
+    elem3 = StorePlugin();
+    elem4 = StorePlugin();
+    elem5 = StorePlugin();
+    elem6 = StorePlugin();
+    elem7 = StorePlugin();
+    length = 0;
+  }
+
+  func AddItem(var sp) {
+    if(length == 0) {
+      elem0 = sp;
+      length = 1;
+    }
+
+    if(length == 1) {
+      elem1 = sp;
+      length = 2;
+    }
+
+    if(length == 2) {
+      elem2 = sp;
+      length = 3;
+    }
+
+    if(length == 3) {
+      elem3 = sp;
+      length = 4;
+    }
+
+    if(length == 4) {
+      elem4 = sp;
+      length = 5;
+    }
+
+    if(length == 5) {
+      elem5 = sp;
+      length = 6;
+    }
+
+    if(length == 6) {
+      elem6 = sp;
+      length = 7;
+    }
+
+    if(length == 7) {
+      elem7 = sp;
+      length = 8;
+    }
+  }
+};
+
+class Store {
+  var pluginList;
+
+  Store() {
+    pluginList = PluginList();
+  }
+};
