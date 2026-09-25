@@ -1,0 +1,89 @@
+Assembly Scripts:
+
+plain_text
+
+print_text
+
+display_rect
+
+play_audio_clip
+
+display_window
+
+text_file_script:
+  print_text("my_text");
+  int my_variable = 1;
+  my_variable = my_variable + 1;
+  
+  print_text("my_text " + my_variable);
+
+text_file_script_2:
+  display_rect(0, 0, 32, 32, 255, 0, 0); //red square
+
+  int my_variable = 32;
+  display_rect(my_variable, 0, 32, 32, 255, 0, 0);
+
+text_file_script_3:
+  play_audio_clip("my_sound_effect.wav");
+  play_audio_clip("my_sound_effect_2.wav");
+
+text_file_script_4:
+  print_text("my_window");
+
+  display_window("my_window", 800, 600);
+
+  print_text("my_other_window");
+  
+  display_window("my_other_window", 400, 300);
+
+print_text
+  print("value");
+  int my_var_to_set = value;
+  if(my_var_to_set == 1) { print("value is 1"); }
+  else { print("value is not 1"); }
+
+  if(my_var_to_set == 2) { print("value is 2"); }
+  else { print("value is not 2"); }
+
+  ... assembly_script(s)
+
+assembly_script
+  \-> print_text function  +++
+  \-> special command list ***
+
+special command list is a lit of commands
+that allow the User to use calculation functions
+with the previous executable; with the computer.
+
+example calculation function:
+  set var to value
+  if var is value execute command
+  else execute other command
+  ... display_rect, play_audio_clip, display_window
+
+display_rect
+play_audio_clip
+display_window
+
+Assembly Script
+  \-> Lines Of Code
+        [Using] Plain Line Of Text
+        [Using] Print Text Commands
+        [Using] Special Calculation Commands
+
+Solution:
+For each J Script or JAssem Script
+  they are [Using]
+    Plain Text, Line Of Text/Code
+    Print Text Command
+    Special Calculation Command
+    
+In order to
+  print_text, display_rect, play_audio_clip, or display_window.
+
+Best of luck.
+
+see:
+  SpecialCalculationCommands_jassem.txt
+  SpecialCalculationCommandsPicture.png
+
