@@ -1,0 +1,19 @@
+J Script Lang Update V016 U018
+
+set_variable, var_name : var_value
+if_condition, command1, else_condition, command2
+
+Previous Executable:
+Windows Console
+\-> my_executable_script.bat
+
+We might be able to simply use a batch script as a previous 
+executable to run the assembly. We'll see; because we are
+trying to make an editor window (display_window, display_rect, print_text,
+play_audio).
+
+see:
+  PrintLineSolutionAssemblyPicture.png
+  ConditionalPrintLineSolutionAssemblyPicture.png
+  my_executable_script.bat
+
