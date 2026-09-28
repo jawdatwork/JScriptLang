@@ -1,0 +1,78 @@
+int if_else_picture = 70;
+
+func IfElseSpecialPath() {
+  int boolIf = 0;
+  int boolElse = 0;
+
+  int calcBool = if_else_picture;
+
+  return calcBool;
+}
+
+func os_getSpecialCommand(var cmdn, var v, var cmdmsg, var spec_param) {
+  if(cmdn == "if") {
+    int print = if_else_picture;
+  }
+}
+
+var ifCond_bool = 0;
+func RunIfConditionSC() {
+  var condition = "x == 1";
+  int x = 0;
+  int print = 0;
+  x = 1;
+  print = 1;
+
+  int myBool = os_getSpecialCommand("if", x, "equal", 1);
+  if(myBool == 1) {
+    ifCond_bool = 1;
+  }
+}
+
+func RunBehaviorScriptString(var bs) {
+  if(bs == "if() { }") {
+    RunIfConditionSC();
+  }
+}
+
+struct SpecCmd {
+  int codeNameInt = 0;
+  var codeNameString = "cmd 0";
+  var behaviorScriptString = "";
+  func Behavior() {
+ RunBehaviorScriptString(behaviorScriptString);
+  }
+};
+
+struct SpecialCommands {
+  var cmd0;
+  var cmd1;
+  var cmd2;
+
+  SpecialCommands() {
+    cmd0 = SpecCmd();
+    cmd1 = SpecCmd();
+    cmd2 = SpecCmd();
+  }
+};
+
+class AssemblyScript {
+  var name;
+  var content;
+  var specialCommands;
+
+  AssemblyScript(var name) {
+    this.name = name;
+    content = "";
+    specialCommands = SpecialCommands();
+  }
+
+  func SetContent(var c) {
+    content = c;
+  }
+
+  func SetSpecialCommands(var sc) {
+    specialCommands = sc;
+  }
+};
+
