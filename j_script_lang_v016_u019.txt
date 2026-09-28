@@ -1,0 +1,52 @@
+J Script Lang V016 U019
+
+assembly scripts
+special commands
+  if, else command calculation; special calculation
+
+func calc() {
+  int normal_calc = 2 + 2;
+  int special_calc = 70;
+
+  return special_calc;
+}
+
+////
+
+purchase product, with store; selling copies
+  productCopy.Purchase();
+
+special calculation with number that represents a special conditional calculation
+  in terms of arithmetic
+
+Normal Calculation (arithmetic):
+2 + 2
+3 * 3
+1 + 2 * 3
+1 + 1 * (2 + 2)
+
+Special Calculation
+if, else (return 70)
+  path 1 (if)
+    return 71;
+  path 2 (else)
+    return 72;
+
+in this special calculation, the
+  return value for the arithmetic
+  represents a special pathfinding
+  algorithm to return a value
+  based on certain conditions rather
+  than normal algebra.
+
+  Algebra; normal conditions
+  Special Calculation; special conditions (if, else, display_window, etc.)
+
+see:
+  AssemblyScriptsNotes.txt
+  SpecialCalculationCommands_jassem.txt
+  SpecialCommandsAssem_j.txt
+  ProductPurchase_j.txt
+  SpecialCalculation_j.txt
+  SpecialCommandIfConditionPicture.png
+
