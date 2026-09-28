@@ -1,0 +1,14 @@
+int byteCode = 0;
+int specialCalcByteSection = 50;
+
+int specialCalcIf = 51;
+var conditionMessage = "x == 1";
+
+class SpecialCalculation {
+  func Calculate() {
+    if(byteCode == specialCalcIf) {
+      
+    }
+  }
+}
+
