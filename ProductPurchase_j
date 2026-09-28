@@ -1,0 +1,18 @@
+int PAID_TYPE_FREE = 1;
+int PAID_TYPE_LIGHT = 2;
+int PAID_TYPE_FULL = 3;
+
+int boolPurchased = 0;
+
+class ProductCopy {
+  var paidVersionType;
+
+  ProductCopy() {
+    paidVersionType = PAID_TYPE_FREE;
+  }
+
+  func Purchase() {
+    boolPurchased = 1;
+  }
+};
+
