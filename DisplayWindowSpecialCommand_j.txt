@@ -1,0 +1,18 @@
+class DisplayWindowSpecialCommand {
+  var path1;
+  var path2;
+  DisplayWindowSpecialCommand() {
+    path1 = “console”;
+    path2 = “display_window”;
+  }
+
+  func PerformSpecialCalculation() {
+    int console = 1;
+    int display_rect = 2;
+    int play_audio_clip  = 3;
+    int display_window = 4;
+    int console_display_window = 5;
+    return 5;
+  }
+};
+
