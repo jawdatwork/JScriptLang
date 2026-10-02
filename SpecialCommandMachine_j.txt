@@ -1,0 +1,24 @@
+struct SpecialCalcPath {
+  var pathNumber;
+  var specialValue;
+
+  SpecialCalcPath() {
+    pathNumber = 1; //1 or 2
+    specialValue = ""; //any string value
+  }
+};
+
+class SpecialCommandMachine {
+  var title;
+  var specialCalculation;
+  var path1;
+  var path2;
+
+  SpecialCommandMachine(var title_param) {
+    title = title_param;
+    specialCalculation = "";
+    path1 = SpecialCalcPath();
+    path2 = SpecialCalcPath();
+  }
+};
+

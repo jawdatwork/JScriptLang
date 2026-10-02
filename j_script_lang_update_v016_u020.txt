@@ -1,0 +1,19 @@
+J Script Lang Update V016 U020
+
+special command machines
+  special calculation (arithmetic)
+    path 1
+     \-> electricity travels to (special value 1)
+    path 2
+     \-> electricity travels to (special value 2)
+
+this special command machine is used to 
+allow the computer to do interesting
+pathfinding for bytecode functions.
+
+see:
+  SpecialCommandMachinePicture.png
+  SpecialCommandMachine_j.txt
+  SpeCmd_If_j.txt
+
+

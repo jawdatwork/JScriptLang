@@ -1,0 +1,12 @@
+include "SpecialCommandMachine.j"
+
+func GetSpeCmdMachine_If() {
+  var specmd_if = SpecialCommandMachine("if_condition");
+  specmd_if.specialCalculation = "if, else";
+  specmd_if.path1.specialValue = "os_if_condition";
+  specmd_if.path2.pathNumber = 2;
+  specmd_if.path2.specialValue = "os_else_condition";
+
+  return specmd_if;
+}
+
