@@ -1,0 +1,20 @@
+J Script Lang Update V016 U021
+
+assembly script bytecodes
+  integers
+  functions
+  structs
+
+special calculation bytecodes
+  plain text
+  if condition
+  special conditions
+  print text
+  draw rectangles
+  play audio clips
+  display window (w or w out os)
+
+see:
+  AssemblyAndSpecialCalcBytecodePicture.png
+  special_bytecodes_51_77_jassem.txt
+
