@@ -1,0 +1,14 @@
+var ifCon_Param0 = 0;
+var ifCon_Param1 = 0;
+var ifCon_Param2 = 0;
+
+ifCon_Param0 = "x == 1";
+ifCon_Param1 = "if() { [contents] }";
+ifCon_Param2 = "";
+
+var param0Title = "if([params]) { ... }";
+var param1Title = "if(...) { [contents]";
+
+return "if_condition, [params], [contents]";
+
+

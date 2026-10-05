@@ -1,0 +1,30 @@
+int bytecode = 0;
+int bytecodeMessage0 = 0;
+
+int boolUsingSpecialBytecodes = 0;
+int boolUsingPlainText = 0;
+
+int boolUsingIfCondition = 0;
+int ifConditionMessage0 = 0;
+int ifConditionMessage1 = 0;
+
+if(bytecode == 100) {
+  boolUsingSpecialBytecodes = 0;
+}
+
+if(bytecode == 50) {
+  boolUsingSpecialBytecodes = 1;
+}
+
+if(bytecode == 51) {
+  boolUsingPlainText = 1;
+}
+
+if(bytecode == 52) {
+  boolUsingIfCondition = 1;
+  ifConditionMessage0 = bytecodeMessage0;
+  ifConditionMessage1 = 0; //IfConditionParamsContents_j.txt
+}
+
+include "IfConditionParamsContents_j.txt"
+
