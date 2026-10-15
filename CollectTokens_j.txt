@@ -1,0 +1,31 @@
+var code = "int x = 1;";
+
+struct CollectedTokens {
+  var tk0;
+  var tk1;
+  var tk2;
+  var tk3;
+  var tk4;
+};
+
+func CollectTokens() {
+  var token0 = "int";
+  var token1 = "x";
+  var token2 = "=";
+  var token3 = "1";
+  var token4 = ";";
+
+  var collectedTokens = CollectedTokens();
+  collectedTokens.tk0 = token0;
+  collectedTokens.tk1 = token1;
+  collectedTokens.tk2 = token2;
+  collectedTokens.tk3 = token3;
+  collectedTokens.tk4 = token4;
+
+  return collectedTokens;
+};
+
+var tokens = CollectTokens();
+
+return tokens;
+
