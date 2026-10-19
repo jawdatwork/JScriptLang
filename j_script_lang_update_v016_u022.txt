@@ -1,0 +1,20 @@
+J Script Lang Update V016 U022
+
+In this update we use "manual_entry"
+technique for parse_script and compile_script
+methods.
+
+This is so we can make a bunch of these
+and automate the process eventually by
+compiling the scripts manually. After compiling 
+enough of these the pathways for automating
+the process will open up and it will be easer
+to make script_generic(s).
+
+Have fun.
+
+see:
+  ManualEntrySolutionPicture.png
+  ParseCompileManualEntry_j.txt
+
+

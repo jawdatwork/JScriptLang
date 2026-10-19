@@ -1,0 +1,72 @@
+include "ScriptOfType.j"
+
+var script = ScriptOfType();
+
+script.title = "Example Script";
+script.type = SCRIPT_TYPE_MANUAL_ENTRY;
+script.content = "int variable_name = 1000;";
+
+struct ParsedTokens {
+  var tk0;
+  var tk1;
+  var tk2;
+  var tk3;
+};
+
+struct CompiledBytes {
+  var byte0;
+  var byte1;
+  var byte2;
+
+  var message0;
+  var message1;
+};
+
+func ParseManualEntry() {
+  var token0 = "int";
+  var token1 = "variable_name";
+  var token2 = "1000";
+  var token3 = ";";
+
+  var result = ParsedTokens();
+  result.tk0 = token0;
+  result.tk1 = token1;
+  result.tk2 = token2;
+  result.tk3 = token3;
+
+  return result;
+}
+
+func CompileManualEntry() {
+  var byte0 = 101;
+  var byte1 = 109;
+  var byte2 = 110;
+
+  var message0 = "variable_name";
+  var message1 = "1000";
+
+  var result = CompiledBytes();
+  result.byte0 = byte0;
+  result.byte1 = byte1;
+  result.byte2 = byte2;
+
+  result.message0 = message0;
+  result.message1 = message1;
+
+  return result;
+}
+
+var parsed_tokens = ParseManualEntry();
+var compiled_bytes = CompileManualEntry();
+
+struct ParseCompilePackage {
+  var parsed_tokens;
+  var compiled_bytes;
+};
+
+var result = ParseCompilePackage();
+result.parsed_tokens = parsed_tokens;
+result.compiled_bytes = compiled_bytes;
+
+return result;
+
