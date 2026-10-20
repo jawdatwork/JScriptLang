@@ -1,0 +1,86 @@
+include "ScriptOfType.j"
+include "ParseCompileManualEntry.j"
+
+var line_0 = "int variable_name = 12;";
+var line_1 = "func MyMethod() { return 5; }";
+var line_2 = "MyMethod();";
+
+var compile_method = "manual_entry";
+
+var bool_didCompile = false;
+var bool_maybeCompiles = false;
+var bool_didNotCompile = false;
+var warning_messages = "";
+
+var script = ScriptOfType();
+
+script.title = "Example Script With Three Lines Of Code";
+script.type = SCRIPT_TYPE_MANUAL_ENTRY;
+script.content = "int variable_name = 12;\nfunc MyMethod() { return 5; }\nMyMethod();";
+
+var parsed_tokens_line_0 = ParsedTokens();
+var parsed_tokens_line_1 = ParsedTokens();
+var parsed_tokens_line_2 = ParsedTokens();
+
+var compiled_bytes_line_0 = CompiledBytes();
+var compiled_bytes_line_1 = CompiledBytes();
+var compiled_bytes_line_2 = CompiledBytes();
+
+parsed_tokens_line_0.tk0 = "int";
+parsed_tokens_line_0.tk1 = "variable_name"
+parsed_tokens_line_0.tk2 = "=";
+parsed_tokens_line_0.tk3 = "12";
+
+parsed_tokens_line_1.tk0 = "func";
+parsed_tokens_line_1.tk1 = "MyMethod"
+parsed_tokens_line_1.tk2 = "(";
+parsed_tokens_line_1.tk3 = ")";
+
+parsed_tokens_line_2.tk0 = "MyMethod";
+parsed_tokens_line_2.tk1 = "("
+parsed_tokens_line_2.tk2 = ")";
+parsed_tokens_line_2.tk3 = ";";
+
+compiled_bytes_line_0.byte0 = 101;
+compiled_bytes_line_0.byte1 = 109;
+compiled_bytes_line_0.byte2 = 110;
+compiled_bytes_line_0.message0 = "variable_name";
+compiled_bytes_line_0.message1 = "12";
+
+compiled_bytes_line_1.byte0 = 112;
+compiled_bytes_line_1.byte1 = 113;
+compiled_bytes_line_1.byte2 = 114;
+compiled_bytes_line_1.message0 = "MyMethod";
+compiled_bytes_line_1.message1 = "";
+
+compiled_bytes_line_2.byte0 = 76;
+compiled_bytes_line_2.byte1 = 0;
+compiled_bytes_line_2.byte2 = 0;
+compiled_bytes_line_2.message0 = "call_func";
+compiled_bytes_line_2.message1 = "MyMethod";
+
+struct ParseCompilePackage3 {
+  var parsed_tokens_line_0;
+  var parsed_tokens_line_1;
+  var parsed_tokens_line_2;
+  var compiled_bytes_line_0;
+  var compiled_bytes_line_1;
+  var compiled_bytes_line_2;
+};
+
+var result = ParseCompilePackage3();
+
+result.parsed_tokens_line_0 = parsed_tokens_line_0;
+result.parsed_tokens_line_1 = parsed_tokens_line_1;
+result.parsed_tokens_line_2 = parsed_tokens_line_2;
+
+result.compiled_bytes_line_0 = compiled_bytes_line_0;
+result.compiled_bytes_line_1 = compiled_bytes_line_1;
+result.compiled_bytes_line_2 = compiled_bytes_line_2;
+
+bool_maybeCompiles = true;
+warning_messages = "unchecked manual_entry";
+
+return result;
+
+

@@ -1,0 +1,11 @@
+J Script Lang Update V016 U023
+
+In this update we will use "manual_entry"
+to create ScriptOfType(s) and if we make
+enough of these we can automate the process
+later.
+
+see:
+  ScriptOfTypeWithThreeLinesPicture.png
+  ScriptOfTypeWithThreeLines_j.txt
+
