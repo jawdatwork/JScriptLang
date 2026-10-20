@@ -1,0 +1,20 @@
+var file_menu = 1;
+var file_tab = 2;
+var file_tab_compile = 3;
+var file_tab_run = 4;
+var file_tab_compile_and_run = 5;
+
+var selected_tab = 0;
+
+var bool_PressCompileAndRun = false;
+
+func GetPressCompileAndRun() {
+  return true; //for now; get message from input later
+}
+
+bool_PressCompileAndRun = GetPressCompileAndRun();
+
+if(bool_PressCompileAndRun) {
+  j_text_editor_CompileAndRunSelectedScript();
+}
+
