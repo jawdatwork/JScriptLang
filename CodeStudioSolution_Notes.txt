@@ -1,0 +1,33 @@
+path 1:
+develop the code_studio from scratch still
+takes longer because the manual_entry process
+has to be automated by a previous executable
+
+path 2:
+develop the code_studio using love2d
+develop the code_studio using love2d in place of visual studio (<-)
+develop the code_studio using java, xcode, or misc
+
+Solution Idea:
+  develop the code_studio using love2d in place of visual studio (<-)
+
+Notes:
+  In the end we can use love2d as the previous executable if we want.
+  Otherwise you would have to use very light previous executables
+  (scripts or small exe(s)).
+
+Moral of the story, is from scratch you would have to automate
+the "manual_entry" scripts for the code_studio using small exe(s).
+But if we are not going to make this from scratch you would have to
+use love2d, visual studio, java, xcode, or misc_code_studio.
+
+Solution 1:
+  From scratch, you would have to automate
+the "manual_entry" scripts for the code_studio using small exe(s).
+
+Solution 2:
+  But if we are not going to make this from scratch you would have to
+use love2d, visual studio, java, xcode, or misc_code_studio.
+
+Best of luck.
+
