@@ -1,0 +1,14 @@
+j_os_display_window("J Console", 500, 300)
+
+j_os_print_text("Input:", 60, 210)
+
+var text_input;
+
+func TypeInput() {
+  text_input = j_os_input_getline();
+}
+
+TypeInput()
+
+j_os_print_text(text_input, 10, 30);
+
