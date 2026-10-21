@@ -1,0 +1,53 @@
+J Script Lang Update V016 U024
+
+title ideas:
+  j script lang editor
+  J Programming Language Editor
+  J Game Engine
+  J Lang Game Engine
+  J Code Studio
+
+  OR
+
+  J Script Lang (Repository)
+    J Language
+    J Game Engine
+    J Game Player
+    J Editor
+      Console
+      File Browser
+      Game Player
+      Text Editor
+      Misc Plugins...
+    J Code Studio
+      Standalone Console
+      Console From Within J Editor
+      Console From Within J Code Studio
+    J Console
+
+Programming Path 1:
+  J Script Lang (Repository)
+    J Language
+    J Game Engine
+    J Game Player
+    J Editor
+      Console
+      File Browser
+      Game Player
+      Text Editor
+      Misc Plugins...
+    J Code Studio
+      Standalone Console
+      Console From Within J Editor
+      Console From Within J Code Studio
+    J Console
+
+Programming Path 2
+  J Console From Within Batch Script
+  J Console From Within Small Exe(s)
+  J Console From Within Love2D (<- easiest solution)
+  J Console From Within Visual Studio
+  J Console From Within Java IDE
+  J Console From Within XCode IDE
+  J Console From Within Misc_CodeStudioIDE
+
