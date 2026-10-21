@@ -1,0 +1,30 @@
+include "ScriptOfType.j"
+
+class EntryPointPlugin {
+  var pluginHandleId;
+
+  EntryPointPlugin() {
+    pluginHandleId = 1;
+  }
+};
+
+class JScriptLangEntryPoint {
+  var mainScript;
+
+  var selectedPlugin;
+
+  JScriptLangEntryPoint() {
+    mainScript = ScriptOfType();
+
+    selectedPlugin = EntryPointPlugin();
+  }
+
+  func ExecuteJScriptLangAsExecutable() {
+    
+  }
+
+  func ExecuteJScriptLangAsPlugin() {
+    
+  }
+};
+
