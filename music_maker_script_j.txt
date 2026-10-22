@@ -1,0 +1,24 @@
+struct Note {
+  int bool_A = 0;
+  int bool_B = 0;
+  int bool_C = 0;
+  int bool_D = 0;
+  int bool_E = 0;
+  int bool_F = 0;
+  int bool_G = 0;
+
+  Note() {
+    
+  }
+};
+
+struct NoteSeries {
+  Note note0;
+  Note note1;
+  Note note2;
+
+  NoteSeries() {
+    
+  }
+};
+
