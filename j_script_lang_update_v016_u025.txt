@@ -1,0 +1,27 @@
+J Script Lang Update V016 U025
+
+small exe(s)
+code_studio, with love2d, visual_studio, java, xcode, or misc...
+
+small_exe with jassem
+large_exe with Jassem
+
+see:
+  SmallEXE_AutomatedProcess_Picture.png
+  SmallOrLargeExe_jassem.txt
+
+run_script
+run_small_exe
+run_large_exe
+
+run_script with bytecode_text_file
+run_script with bytecode_text_file
+  from application
+
+run_script from application
+  with j_app executable
+  with win_exe executable
+  with mac_app executable
+  with linux_app executable
+  with misc_app executable
+

@@ -1,0 +1,48 @@
+include "gen_raw_app_contents.jassem"
+
+var OS_TYPE_GENERIC = "generic";
+var OS_TYPE_WINDOWS = "windows";
+var OS_TYPE_MAC = "mac";
+var OS_TYPE_LINUX = "linux";
+var OS_TYPE_SMART_PHONE = "smart_phone";
+var OS_TYPE_BASIC_PHONE = "basic_phone";
+var OS_TYPE_GAME_CONSOLE = "game_console";
+var OS_TYPE_MISC = "misc";
+
+var SPEC_DOC_TYPE_NULL = 0;
+var SPEC_DOC_TYPE_TEST_APP = 1;
+var SPEC_DOC_TYPE_SMALL_APP = 2;
+var SPEC_DOC_TYPE_LARGE_APP = 3;
+
+class SmallJApp {
+  var os_type;
+  var spec_doc_type;
+
+  var script_list;
+  var executable_console_script;
+  var executable_click_and_run_code;
+  var executable_raw_text_file_contents;
+
+  SmallJApp(var os_type_param = OS_TYPE_GENERIC) {
+    os_type = os_type_param;
+
+    if(os_type == OS_TYPE_GENERIC) {
+      spec_doc_type = SPEC_DOC_TYPE_TEST_APP;
+    }
+  }
+
+  func gen_raw_app_contents() {
+    var result = "";
+
+    
+  }
+
+  func GenerateExecutableRawContents() {
+    var header = "japp";
+    var sections = "misc_sections";
+    var data = "data";
+    var footer = "footer";
+
+    var contents = gen_raw_app_contents();
+  }
+};
