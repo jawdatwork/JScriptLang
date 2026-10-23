@@ -1,0 +1,45 @@
+J Script Lang Update V016 U026
+
+j_app
+  test_app
+  snippet_app
+  manual_entry_app
+  did_compile_app
+  did_not_compile_app
+
+j console
+  TypeInput()
+  j_os_input_getline()
+  j_os_print_text(text_input, 10, 30)
+  j_console_draw_rect
+  j_console_play_audio_clip
+  j_console_set_mode ("console", "window")
+  j_os_display_console()
+  j_os_display_window()
+
+
+j window
+  j_win_draw_rect
+  j_win_play_audio_clip
+  j_win_set_mode("console", "window")
+
+j os
+  input, getline
+  print_text
+
+j game_engine
+  draw_rect
+  play_audio_clip
+  run_from, "console", "window"
+  
+j editor (+code_studio[plugin])
+  j_editor_interface
+  interface_sub_window
+  display_new_sub_window
+  display_new_window
+
+see:
+  ClickAndRunJAppDiagram.png
+  ClickAndRunJApp_jassem.txt
+
+
