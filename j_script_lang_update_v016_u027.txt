@@ -1,0 +1,18 @@
+J Script Lang Update V016 U027
+
+click and run console script
+  with j console
+  with JAPP_TEST_APP
+
+run click_and_run_j_script with
+  j_console
+run click_and_run_jassem_script with
+  j_console
+run click_and_run_j_console with
+  JAPP_TEST_APP j_app
+
+see:
+  J_OS_RegisterClickAndRunPicture.png
+  J_OS_RegisterClickAndRun_jassem.txt
+
+
