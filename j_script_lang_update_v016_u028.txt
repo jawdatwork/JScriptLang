@@ -1,0 +1,38 @@
+J Script Lang Update V016 U028
+
+file_browser
+
+japp
+JAPP_TEST_APP
+
+file_browser
+\-> load_file_contents, file_path
+      text_file (.txt)
+      text_file (.j)
+      text_file (.japp)
+      text_file (.exe)
+
+see:
+  file_browser_load_or_open_with_diagram.png
+
+pathfinding:
+  j_script
+  j_assem_script
+  j_app, test_app, snippet_app, compiled_app
+  operating system
+  computer software
+    internet, packets (store, web_browser_plugin)
+  computer hardware
+  computer type, personal computer, phone, game console, misc
+  
+  Best pathfinding solution might be to focus on
+  diagrams and scripts (j or jassem)
+  Develop test_app(s) for the computer software
+  using test kits; to eventually automate the process
+  for compiled_app(s).
+
+see:
+  test_kits_for_compiled_apps_diagram.png
+  TestKit_jassem.txt
+
+
