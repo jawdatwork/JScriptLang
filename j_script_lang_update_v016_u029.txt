@@ -1,0 +1,32 @@
+J Script Lang Update V016 U029
+
+notes/update(s)
+
+j_script
+j_assem_script
+
+diagram (optionally, first)
+
+j_app
+
+test_kit(s)
+
+compiled_app(s)
+
+notes/update(s):
+editor
+  plugin
+
+"plugin_interface"
+  ...
+    plugin
+    plugin
+    plugin(s)...
+    \-> compiled_app, script_list ...
+      j_app (compiled_app) ;
+
+see:
+  EditorPluginInterfaceDiagram.png
+  EditorPluginInterface_j.txt
+  EditorPluginInterface_jassem.txt
+

@@ -1,0 +1,21 @@
+//class Editor { ... };
+//class EditorPlugin { ... };
+
+class EditorPluginInterface {
+  var plugin0;
+  var plugin1;
+  var plugin2;
+
+  EditorPluginInterface() {
+    plugin0 = EditorPlugin();
+    plugin1 = EditorPlugin();
+    plugin2 = EditorPlugin();
+  }
+
+  func LoadPluginsToCompiledApp() {
+    j_compiled_app_AddScriptList(plugin0.GetScriptList());
+    j_compiled_app_AddScriptList(plugin1.GetScriptList());
+    j_compiled_app_AddScriptList(plugin2.GetScriptList());
+  }
+};
+
