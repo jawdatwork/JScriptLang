@@ -1,0 +1,29 @@
+struct ScriptNameMessageBytes {
+  var byte0;
+  var byte1;
+  var byte2;
+
+  ScriptNameMessageBytes() {
+    byte0 = 0;
+    byte1 = 0;
+    byte2 = 0;
+  }
+};
+
+class JApp_StoreScript {
+  var script_name_message;
+  var script_name_message_bytes;
+  var script_content_bytes;
+
+  JApp_StoreScript() {
+    
+  }
+
+  func Init(var name_message, var content_message_bytes) {
+    script_name_message = name_message;
+    script_name_message_bytes = ScriptNameMessageBytes(); //fix later
+
+    script_content_bytes = content_message_bytes;
+  }
+};
+

@@ -1,0 +1,19 @@
+J Script Lang Update V016 U030
+
+notes/updates:
+
+see:
+  StoreScriptJAppDiagram.png
+
+store_script,
+  store_script_j_bytecode,
+  script_name (message, bytes)
+  script_content (j_bytecode bytes)
+
+japp_run_script (stored_script, "script_name" message)
+
+JApp_StoreScript_j.txt
+JApp_StoreScript_jassem.txt
+
+JApp_StoreScript_TestKit_japp.txt
+
