@@ -1,0 +1,61 @@
+int misc_PlayMusicNote_NoteA = 0;
+int misc_PlayMusicNote_NoteG = 7;
+
+class misc_PlayMusicNote {
+  var selected_note = misc_PlayMusicNote_NoteA;
+  var selected_pitch = 0.0;
+
+  misc_PlayMusicNote() {
+    
+  }
+
+  func select_note(int a_g) {
+    selected_note = a_g;
+  }
+
+  func note_pitch_algorithm() {
+    var original_pitch = 0.0;
+
+    if(selected_note == 0) {
+      original_pitch = 0.0;
+    }
+
+    if(selected_note == 1) {
+      original_pitch = 1.0;
+    }
+
+    if(selected_note == 2) {
+      original_pitch = 2.0;
+    }
+
+    if(selected_note == 3) {
+      original_pitch = 3.0;
+    }
+
+    if(selected_note == 4) {
+      original_pitch = 4.0;
+    }
+
+    if(selected_note == 5) {
+      original_pitch = 5.0;
+    }
+
+    if(selected_note == 6) {
+      original_pitch = 6.0;
+    }
+
+    if(selected_note == 7) {
+      original_pitch = 7.0;
+    }
+
+    selected_pitch = original_pitch;
+  }
+
+  func play_music_note() {
+    //generate_basic_wave("sine")
+    //generate_basic_wave_freq("sine", 0) 0 - 7
+    //var basic_wave = generate_basic_wave_freq("sine", selected_pitch);
+    //j_audio_play_basic_wave(basic_wave);
+  }
+};
+
