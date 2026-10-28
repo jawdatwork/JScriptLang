@@ -1,0 +1,8 @@
+solution for assembly scripts:
+
+functional bytecodes:
+0 - 155
+
+misc_message bytecodes:
+156 - 826
+
