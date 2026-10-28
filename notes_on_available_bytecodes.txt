@@ -1,0 +1,33 @@
+special calculations and conditions
+50 - 77
+
+functional programming
+100 - 127
+
+application development
+128 - 155
+
+misc, play_music_note
+821 - 826
+
+misc, editor_plugin_interface
+800 - 808
+
+solution notes:
+functional programming, 50 - 77, 100 - 127, 128 - 155,
+misc, 0 - 50, 78 - 100, 156 - 799
+
+maybe use these ones for functional programming:
+  special calculations and conditions (50 - 77)
+  functional programming (100 - 127)
+  application development (128 - 155)
+
+maybe use the rest for misc messages:
+   misc, play_music_note (821 - 826)
+   misc, editor_plugin_interface (800 - 808)
+   misc, misc messages (0 - 50, 78 - 100, 156 - 799)
+
+call the first set "functional bytecodes"
+call the second set "misc_message bytecodes"
+
+
