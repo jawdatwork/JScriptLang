@@ -1,0 +1,25 @@
+J Script Lang Update V016 U031
+
+j_app
+  starter_bytecodes:
+    0 - 826 [starter codes for making test compiled app(s) with test_kit(s)]
+
+notes:
+j_lang
+0
+
+starter_bytecode_1
+1
+
+starter_bytecode_826
+826
+
+starter codes (100 - 127)
+j_app codes (128 - 155)
+misc_PlayMusicNote (821 - 826)
+editor_plugin_interface (800 - 808)
+special_bytecodes (50 - 77)
+
+we could make all the bytecodes we need out of
+numbers 0 through 826 in this context.
+
