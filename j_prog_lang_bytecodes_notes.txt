@@ -1,0 +1,78 @@
+j programming language bytecodes
+
+functional:
+0 - 50
+  to do
+
+50 - 77
+special calculations and conditions
+  plain text
+  if condition
+  special condition
+  for loop
+  make class
+  make generic var
+  generic var type
+  print text, params
+  display, rect, audio clip, window, params
+  load or save files, params
+  interesting params
+  run scripts, params
+
+78 - 100
+  to do
+
+100 - 127
+starter (functional) bytecodes
+  make int, name, value (messages)
+  set int
+  include (script)
+  make func, params, param_var_init_value,
+  begin end func content
+  make struct, name, vars, vars_init_value, constructor
+  struct constructor details
+
+128 - 155
+application (j app) bytecodes
+  make app
+  store script, bytecode
+  run script
+  script name, content messages
+  store file
+  store file name, content messages
+  special params and messages
+  store label
+  label params and messages
+  print text with JApp
+  draw rect with JApp
+  play audio clip with JApp
+  display window with JApp
+  load file, save file with JApp
+  interesting params
+  run script with JApp
+
+moral of the story:
+available for more core functions:
+  0 - 50 (available for more core functions)
+  78 - 100 (available for more core functions)
+  
+used by core functions already:
+  50 - 77
+  100 - 127
+  128 - 155
+
+Solution for more core functions (JApps):
+So if we ever need more core functions for the
+embedded systems we will use:
+  0 - 50
+  OR
+  78 - 100
+
+misc_message(s):
+  156 - 826
+
+Solution for more misc_message(s) (JApps):
+So if we ever need more misc messages for the
+embedded systems we will use:
+  156 - 826
+
