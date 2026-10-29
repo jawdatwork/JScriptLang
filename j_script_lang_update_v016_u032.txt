@@ -1,0 +1,37 @@
+J Script Lang Update V016 U032
+
+misc_message(s)
+
+messages
+strings
+
+functional programming vs messages (strings)
+
+integers and functions,
+arithmetic
+
+messages,
+int my_value = 123;
+
+//message is "123"
+
+j_assem
+
+message
+0
+
+message2
+31
+
+available misc_message(s):
+156 - 826
+
+example code:
+var my_string = "hello world";
+
+//message is "hello world"
+
+see:
+  example_misc_messages_jassem.txt
+  FunctionalProgMiscMessagesPicture.png
+
