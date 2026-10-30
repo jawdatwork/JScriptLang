@@ -1,0 +1,13 @@
+J Script Lang Update V016 U033
+
+implementation
+diagrams and scripts
+
+bool_make_int, int_name_msg, int_value_msg
+
+see:
+  CodeSolution_HelloWorld_BytecodeDiagram.png
+  byte_package_example_j.txt
+  byte_package_example_jassem.txt
+
+

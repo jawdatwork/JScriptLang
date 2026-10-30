@@ -1,0 +1,22 @@
+var code = "int hello_world = 31;";
+
+struct BytePackage {
+  int byte0;
+  int byte1;
+  int byte2;
+  int byte3;
+  int byte4;
+};
+
+if(code == "int hello_world = 31;") {
+  var bp = BytePackage();
+
+  bp.byte0 = 101;
+  bp.byte1 = 109;
+  bp.byte2 = 159;
+  bp.byte3 = 110;
+  bp.byte4 = 158;
+
+  return bp;
+}
+
