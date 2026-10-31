@@ -1,0 +1,21 @@
+class Repository {
+  var codeFiles;
+  var commitFiles;
+
+  var owner;
+
+  Repository() {
+    
+  }
+};
+
+class SharedRepository {
+  var repo;
+
+  var secondaryOwners;
+
+  SharedRepository() {
+    
+  }
+};
+
