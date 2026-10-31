@@ -1,0 +1,26 @@
+include "CodeSolution.j"
+
+func Compile_include_example_j() {
+  var myCodeSolution = CodeSolution();
+  myCodeSolution.setLineOfCode("include \"example.j\"");
+  myCodeSolution.setBytePackage(111, 301, 0, 0, 0);
+
+  return myCodeSolution;
+}
+
+func Compile_func_f_ret_5() {
+  var myCodeSolution = CodeSolution();
+  myCodeSolution.setLineOfCode("func f() { return 5; }");
+  myCodeSolution.setBytePackage(112, 301, 1, 5, 0);
+
+  return myCodeSolution;
+}
+
+func Compile_struct_s_v_x() {
+  var myCodeSolution = CodeSolution();
+  myCodeSolution.setLineOfCode("struct s { var x; };");
+  myCodeSolution.setBytePackage(120, 121, 302, 122, 303);
+
+  return myCodeSolution;
+}
+
