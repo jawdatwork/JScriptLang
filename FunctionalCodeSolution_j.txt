@@ -1,0 +1,16 @@
+func Compile_func_f_ret_5() {
+  var myCodeSolution = CodeSolution();
+  myCodeSolution.setLineOfCode("func f() { return 5; }");
+  myCodeSolution.setBytePackage(112, 301, 1, 5, 0);
+
+  return myCodeSolution;
+}
+
+func functional_Compile_func_f_ret_x(var x) {
+  var myCodeSolution = CodeSolution();
+  myCodeSolution.setLineOfCode("func f() { return 5; }");
+  myCodeSolution.setBytePackage(112, 301, 1, x, 0);
+
+  return myCodeSolution;
+}
+
