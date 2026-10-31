@@ -1,0 +1,46 @@
+struct BytePackage {
+  int byte0;
+  int byte1;
+  int byte2;
+  int byte3;
+  int byte4;
+
+  BytePackage() {
+    byte0 = 0;
+    byte1 = 0;
+    byte2 = 0;
+    byte3 = 0;
+    byte4 = 0;
+  }
+};
+
+class CodeSolution {
+  var lineOfCode; //string
+  var bytePackage; //BytePackage
+
+  CodeSolution() {
+    lineOfCode = "";
+    bytePackage = BytePackage();
+  }
+
+  func setLineOfCode(var lc) {
+    lineOfCode = lc;
+  }
+
+  func getLineOfCode() {
+    return lineOfCode;
+  }
+  
+  func setBytePackage(var b0, var b1, var b2, var b3, var b4) {
+    bytePackage.byte0 = b0;
+    bytePackage.byte1 = b1;
+    bytePackage.byte2 = b2;
+    bytePackage.byte3 = b3;
+    bytePackage.byte4 = b4;
+  }
+
+  func getBytePackage() {
+    return bytePackage;
+  }
+};
+

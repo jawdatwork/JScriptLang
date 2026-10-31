@@ -1,0 +1,29 @@
+J Script Lang Update V017 U001
+
+code solutions
+
+CodeSolution class
+
+lineOfCode var string
+
+BytePackage bytePackage
+
+setLineOfCode
+getLineOfCode
+
+setBytePackage
+getBytePackage
+
+Solution to CodeSolution class:
+
+var myCodeSolution = CodeSolution();
+myCodeSolution.setLineOfCode("int hello_world = 31;");
+myCodeSolution.setBytePackage(101, 109, 159, 110, 158);
+
+return myCodeSolution;
+
+see:
+  CodeSolutionDiagram.png
+  CodeSolution_j.txt
+  CodeSolution_jassem.txt
+
