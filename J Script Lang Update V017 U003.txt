@@ -1,0 +1,16 @@
+J Script Lang Update V017 U003
+
+assembly scripts
+regular scripts
+code solutions
+implementation scripts
+
+var
+  int
+  float
+  bool
+  string
+
+see:
+  CompiledTestKitJAppCircuitDiagram.png
+
