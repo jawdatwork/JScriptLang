@@ -1,0 +1,36 @@
+J Script Lang Update V017 U004
+
+compiled_app_circuit
+tiny_string
+string snippet
+string complete script
+
+JAPP_TEST_APP prototype
+
+  tiny_string complete script
+
+JAPP_COMPILED_APP prototype
+
+  string complete script
+
+JAPP_TEST_APP
+  compiles as, j bytecode strictly speaking
+    with a hypothetical os [exe] circuit first
+
+JAPP_COMPILED_APP
+  compiles as, j bytecode strictly speaking
+    with an existing os [exe] circuit first
+
+code solution
+  compiles as: hypothetical bytecode circuit entry point
+  OR
+  compiles as: existing bytecode circuit entry point
+
+editor_plugin_interface
+  run as test_kit_circuit (hypothetical bytecode circuit entry point)
+  OR
+  run as compiled_kit_circuit (existing bytecode circuit entry point)
+
+see:
+  JApp_Compiled_OS_Circuit_Diagram.png
+
