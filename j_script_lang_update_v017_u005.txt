@@ -1,0 +1,38 @@
+J Script Lang Update V017 U005
+
+JAPP_TEST_APP
+  from test_kit_circuit bytecode entry point
+
+JAPP_COMPILED_APP
+  from compiled_kit_circuit bytecode entry point
+
+JApp_StoreScript TestKit JApp
+
+JAPP_TEST_APP
+
+508 700 800 3 4
+509 1 2 3 4
+510 1 2 3 4
+511 516 129 149
+809 810 811 812 813 814 815 816 817 818 819 820
+517
+
+test_kit_circuit bytecode entry point:
+  test_os_kit_click_and_run
+  execute_byte
+  read_byte
+  start_index
+  num_integers
+
+compiled_kit_circuit bytecode entry point:
+  os_kit_click_and_run
+  execute_byte
+  read_byte
+  start_index
+  num_integers
+
+see:
+  j_app_kit_circuit_jassem.txt
+
+
+  
