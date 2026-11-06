@@ -1,0 +1,37 @@
+J Script Lang Update V017 U006
+
+J Script
+J Assem Script
+
+J Bytecode Executable File
+  text_file
+  text_file_with extension
+  file made from previous executable (click and run)
+
+j_app
+  test_app
+  compiled_app
+
+J App
+J App Bytecode Executable File
+
+script.j
+script.jassem
+game.japp
+
+  game.exe
+  win/mac/Linux/misc
+
+
+test_kit_circuit
+compiled_kit_circuit
+
+Product Copy
+  free version
+  light version
+  full version
+
+0, 30, 60 dollars
+
+J Editor (Notes, Scripts, Drawings, Games, and more (misc)...)
+
