@@ -1,0 +1,83 @@
+J Script Lang Update V017 U008
+
+programming path finding:
+
+script (j)
+
+assembly script (j assem)
+
+bytecode file (j bytecode)
+
+executable file (j app)
+
+executable file platform specific (j app, exe, os_type_executable_extension...)
+
+code solutions
+
+functional bytecode messages
+
+misc bytecode messages
+
+compile method
+
+snippets
+
+compiled scripts (did compile, maybe compiles, did not compile)
+
+code solution examples
+
+dynamic code solutions
+
+j numbers (0 - 826, int_min - int_max, foat_min - float_max, string_min_length, string_max_length,
+  string_char_min, string_char_max)
+
+test_kit
+
+editor_plugin_interface
+
+compiled_kit
+
+os_test_kit_click_and_run
+
+os_compiled_kit_click_and_run
+
+; ////
+
+programming path complexity
+
+basic scripts
+  compile method
+    basic test_kit, circuits
+    basic compiled_kit, circuits
+    complex scripts, complex executable circuits
+
+j editor product line
+  j editor + plugins
+  free, light, full paid version
+
+j editor store (web browser, misc browser)
+
+var
+  int
+  float
+  bool
+  string
+    j number (0 - 826, int_min, int_max...)
+  objects... (struct, class)
+
+J Editor, Programming Path Finding Solution:
+  Editor Plugin Interface:
+    os_click_and_run_starter -> editor_plugin_interface -> script_list (plugins...)
+
+  os_specific_click_and_run_entry_point
+    generic_test_os
+    generic_compiled_os
+    platform_specific_test_os_entry_point
+    platform_specific_compiled_os_entry_point
+
+  scripts (script_list [plugins...])
+  \-> small executables
+        [using] test_kit
+        [using] compiled_kit
+        \-> [using] os_specific_click_and_run_entry_point
+
