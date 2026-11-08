@@ -1,0 +1,31 @@
+J Script Lang Update V017 U009
+
+os_click_and_run_starter
+
+os_specific_click_and_run_entry_point
+  generic_test_os
+  generic_compiled_os
+  platform_specific_test_os_entry_point
+  platform_specific_compiled_os_entry_point
+
+generic_test_os : os_click_and_run_starter
+
+generic_test_os
+\-> os_click_and_run_starter
+      "generic_test_os_click_and_run_starter"
+
+os_specific_click_and_run_entry_point
+\-> generic_test_os_click_and_run_starter
+
+small_test_kit_executable
+\-> [using] generic_test_os_click_and_run_starter
+
+[0] generic_test_os_click_and_run_starter
+
+[1] small_test_kit_executable
+
+[2] script_list [and] plugins (...)
+
+see:
+  ClickAndRunStarterDiagram.png
+
