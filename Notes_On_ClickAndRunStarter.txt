@@ -1,0 +1,44 @@
+[0] generic_test_os_click_and_run_starter
+
+[1] small_test_kit_executable
+
+[2] script_list [and] plugins (...)
+
+//----
+
+test examples:
+final draft may be different:
+
+[0]:
+Example CLICK_AND_RUN_STARTER contents
+
+CLICK_AND_RUN_STARTER
+519 1 2 3 4
+520 1 2 3 4
+521 1 2 3 4
+522 523 524 525
+526
+
+[1]:
+Example JAPP_TEST_APP contents
+
+JAPP_TEST_APP
+508 1 2 3 4
+509 1 2 3 4
+510 1 2 3 4
+511 516 129 149
+517
+
+[2]:
+Example SCRIPT_LIST_AND_PLUGINS contents
+
+SCRIPT_LIST_AND_PLUGINS
+528 1 2 3 4
+529 1 2 3 4
+530 1 2 3 4
+531 532 533 534
+535
+
+see:
+  ClickAndRunStarterBytecodes_jassem.txt
+  
