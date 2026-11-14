@@ -1,0 +1,15 @@
+J Script Lang Update V017 U010
+
+Repository
+Shared Repository
+
+Repository Owner
+ Owner
+ Owner List
+
+Repository Owner List
+RepositoryOwnerList class
+
+see:
+  SharedRepoOwnerListDiagram.png
+
