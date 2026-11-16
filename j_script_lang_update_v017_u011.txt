@@ -1,0 +1,31 @@
+J Script Lang Update V017 U011
+
+test_kit
+
+j_editor
+
+click_and_run_starter
+
+repository
+
+shared repository
+
+test_kit_circuit
+
+include "FunctionalScript_j.txt"
+
+include "RepositoryAndSharedRepo_j.txt"
+
+include "j_app_kit_circuit_jassem.txt"
+
+include "small_j_app_j.txt"
+
+solution:
+  class TestKit_017_011;
+
+see:
+  TestKitCircuitDiagram_V017_U011.png
+  test_kit_017_011_jassem.txt
+  test_kit_017_011_j.txt
+  test_kit_017_011_raw_app_contents.txt
+

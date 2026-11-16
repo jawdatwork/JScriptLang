@@ -1,0 +1,97 @@
+include "FunctionalScript_j.txt"
+include "EditorPluginInterface_j.txt"
+include "ClickAndRunJApp_jassem.txt"
+include "RepositoryAndSharedRepo_j.txt"
+include "j_app_kit_circuit_jassem.txt"
+include "small_j_app_j.txt"
+include "test_kit_017_011_raw_app_contents.txt"
+
+class Owner_017_011 {
+  var profileName;
+  var profileId;
+
+  Owner_017_011() {
+    profileName = "";
+    profileId = 0;
+  }
+};
+
+class OwnerList_017_011 {
+  var owner0;
+  var owner1;
+  var owner2;
+
+  OwnerList_017_011() {
+    
+  }
+};
+
+class ClickAndRunStarter_017_011 {
+  
+};
+
+class TestKitCircuit_017_011 {
+  
+};
+
+class TestKit_017_011 {
+  var j_editor;
+  var click_and_run_starter;
+  var repository;
+  var shared_repository;
+  var test_kit_circuit;
+  var j_app;
+
+  TestKit_017_011() {
+    
+  }
+
+  func Init() {
+    var fs = FunctionalScript();
+    fs.SetStoredInt(801);
+
+    j_editor = EditorPluginInterface();
+
+    click_and_run_starter = ClickAndRunStarter_017_011();
+
+    var repo = Repository();
+    repo.owner = Owner_017_011();
+    repo.owner.profileName = "Jawdat";
+    repo.owner.profileId = "1";
+
+    var shared_repo = SharedRepository();
+    shared_repo.repo = repo;
+
+    shared_repo.secondaryOwners = OwnerList_017_011();
+    shared_repo.secondaryOwners.owner0 = Owner_017_011();
+    shared_repo.secondaryOwners.owner0.profileName = "Muhammad";
+    shared_repo.secondaryOwners.owner0.profileId = 2;
+
+    test_kit_circuit = TestKitCircuit_017_011();
+
+    j_app = SmallJApp();
+
+    j_app.GenerateExecutableRawContents();
+  }
+
+  func Run() {
+    var raw_app_contents = j_app.executable_raw_text_file_contents;
+
+    raw_app_contents += "TEST_KIT_017_011";
+    raw_app_contents += "\n";
+    raw_app_contents += "519 1 2 3 4";
+    raw_app_contents += "\n";
+    raw_app_contents += "520 1 2 3 4";
+    raw_app_contents += "\n";
+    raw_app_contents += "521 1 2 3 4";
+    raw_app_contents += "\n";
+    raw_app_contents += "522 523 524 525";
+    raw_app_contents += "\n";
+    raw_app_contents += "526";
+
+    for(var i = 0; i < raw_app_contents.GetLength(); i++) {
+      //parse tokens here...
+    }
+  }
+};
+
