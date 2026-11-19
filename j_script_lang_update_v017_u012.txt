@@ -1,0 +1,30 @@
+J Script Lang Update V017 U012
+
+repository
+  lone version (original repository)
+  shared version (shared repository)
+
+  \->
+     j editor
+       click and run starter (test_kit OR compiled_kit)
+
+...
+script list (functional scripts, of type)
+\-> small j app (test_app OR compiled_app)
+
+
+repository code file list
+  lone repository (version)
+  shared repository (version)
+with owner list
+with owner (as default owner type, as admin owner type)
+
+code file list
+\-> j app (test_app OR compiled_app) [using code file list]
+... j app(s)
+
+see:
+  CodeFileList_JApp_Diagram.png
+  MyTestApp_j.txt
+
+

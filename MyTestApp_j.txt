@@ -1,0 +1,30 @@
+include "SpecialCalculation_j.txt"
+
+var specialCalc = SpecialCalculation();
+
+var myClassTitle = "TestClass";
+var myClassElem0 = 100;
+var myClassElem1 = "hello world";
+
+func TestClass_constr_Implem() {
+  myClassElem0 = myClassElem0 + 1;
+}
+
+func Make_TestClass_Object() {
+  TestClass_constr_Implem();
+
+  var object = 3056;
+  return object;
+}
+
+func specialCalc_Implem() {
+  if(byteCode == 56) {
+    var myObject = Make_TestClass_Object();
+    return myObject;
+  }
+
+  return 0;
+}
+
+return specialCalc_Implem();
+
