@@ -1,0 +1,38 @@
+var REPO_FORUM_ISSUE_TYPE = "default";
+var REPO_FORUM_ISSUE_TYPE_DEFAULT = "default";
+var REPO_FORUM_ISSUE_TYPE_PROFILE_A_B_DISPUTE = "profile_a_b_dispute";
+
+var REPO_FORUM_PROFILE_STATUS = "default";
+var REPO_FORUM_PROFILE_STATUS_DEFAULT = "default";
+var REPO_FORUM_PROFILE_STATUS_ADMIN = "admin";
+
+class RepoForumIssue {
+  var id;
+  var title;
+  var content;
+  var type;
+
+  RepoForumIssue() {
+    id = 0;
+    title = "";
+    content = "";
+    type = REPO_FORUM_ISSUE_TYPE_DEFAULT;
+  }
+};
+
+class RepositoryForum {
+  var forum_posts;
+  var dashboard_comments;
+  var issues;
+  var profile_list;
+  var forum_issue_list;
+
+  RepositoryForum() {
+    
+  }
+
+  func ResolveIssue(var id) {
+    
+  } 
+};
+

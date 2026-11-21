@@ -1,0 +1,24 @@
+J Script Lang Update V017 U013
+
+Repository
+Repository Forum
+Repository Issues
+
+Profile 1
+Profile 2
+Profile 3
+Profile x...
+
+Repository Issue
+  profile a, dispute profile b
+  resolve issue with repo admin status profile
+
+profile status
+  default
+  admin
+
+see:
+  JScriptLang_Repo_Issue_Diagram.png
+  repo_issue_jassem.txt
+  repo_issue_j.txt
+
