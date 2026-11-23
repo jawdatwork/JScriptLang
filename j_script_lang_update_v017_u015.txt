@@ -1,0 +1,66 @@
+J Script Lang Update V017 U015
+
+japp_message
+
+SpecialCalculation.Calculate(); //implem0, implem1, implem2...
+
+AssemblyScript, Script; //implem0, implem1, implem2...
+
+japp_message
+0 - 825;
+
+JAssem, japp_message, [0 ... 825]
+
+JAssem Syntax:
+  variable_name (string)
+  variable_value (int OR string)
+  [newline]
+  ...
+
+variable_name0
+0
+
+variable_name1
+1
+
+variable_name2
+2
+
+variable_name0
+0
+
+variable_name825
+825
+
+Repository Implementation (implem0, implem1, implem2...)
+
+Assembly Solution:
+
+japp_message "implem0":
+  used_bytecodes v017 u015
+  available_bytecodes v017 u015
+
+bytecodes v017 u015:
+  integers, functions, and structs [101 - 127]
+  special calculations [51 - 77]
+  ClickAndRunJApp_jassem [516, 506, 530 - 547]
+  ClickAndRunStarter_jassem [518 - 526]
+  CodeSolution_jassem [301 - 321]
+  EditorPluginInterface_jassem [800 - 808]
+  JApp_StoreScript_jassem [809 - 820]
+  JScriptLangProductLine_jassem [1 - 22]
+  J_OS_RegisterClickAndRun_jassem [548 - 568 "japp_message"]
+  ... (.jassem)
+
+J App Message(s) 0 - 825 for (.jassem)
+  used_bytecodes v017 u015
+  available_bytecodes v017 u015
+  ... (japp_message jassem values; used; available;)
+
+We could make more bytecodes between 0 and 825 for this
+version of JAssem; or we could just use the ones we made
+so far even if not all of them are used.
+
+see:
+  JAssem_Message_Solution_Diagram.png
+
