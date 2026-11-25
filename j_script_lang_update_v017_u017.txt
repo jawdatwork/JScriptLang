@@ -1,0 +1,37 @@
+J Script Lang Update V017 U017
+
+repository category
+  implementation
+    path finding
+    compile method
+
+j syntax
+  implementation
+    path finding
+    compile method
+
+j script lang repository
+  update (feature)
+  script (feature)
+  asset (sound_file, picture_file, misc_data_file...) (feature asset)
+
+feature
+  optional asset
+  compile method
+
+Feature Update
+  J Assembly Script (.jassem)
+  J Script (.j)
+  Asset (misc_data_file)
+
+repository feature
+  compile method for specific feature
+
+Feature Compile Method Solution:
+feature, feature diagram
+  optional asset(s)
+    \-> compile method [bytecode] (for specific feature)
+  
+see:
+  FeatureCompileMethodDiagram.png
+
